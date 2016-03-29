@@ -1,0 +1,9 @@
+language: cpp
+script: main.cpp
+
+compiler:
+  - clang
+  - gcc
+
+notifications:
+  email: false
