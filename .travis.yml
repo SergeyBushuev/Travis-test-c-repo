@@ -4,6 +4,6 @@ script: cmake .. && make
 compiler:
   - clang
   - gcc
-	
+  
 notifications:
   email: false
