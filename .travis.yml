@@ -1,9 +1,9 @@
 language: cpp
-script: main.cpp
+script:- cmake .. && make
 
 compiler:
   - clang
   - gcc
-
+	
 notifications:
   email: false
